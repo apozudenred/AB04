@@ -1,0 +1,10 @@
+ Was ich gemacht habe:
+- Ich habe die Token-Erkennung für MiniJava in der Klasse `MiniJavaTokens` vollständig implementiert, sodass die verschiedenen Sprachelemente (wie Kommentare, Keywords und Literale) korrekt erkannt werden.
+- Die Reihenfolge der Tokens wurde so angepasst, dass komplexere Muster (wie JAVADOC- und Blockkommentare) zuerst geprüft werden. Dadurch wird verhindert, dass einfache Operatoren oder Zeilenkommentare die längeren Textstellen fälschlicherweise abschneiden.
+- Ich habe eine automatische CI-Pipeline (.github/workflows/ci.yml) für GitHub Actions eingerichtet, die das Projekt bei jedem Pull Request automatisch via Gradle baut und testet.
+- Die Implementierungen für den `RegexHighlighter` und den `ScanningHighlighter` wurden auf eigenen Branches fertiggestellt und vorbereitet.
+
+ Was ich noch vor habe / Aktueller Stand:
+- Aktueller Stand ist, dass alle 24 JUnit-Tests lokal bei mir in IntelliJ sowie in der GitHub-Pipeline erfolgreich und ohne Fehler durchlaufen.
+- Als Nächstes werde ich das gegenseitige Peer-Review mit meinem Kommilitonen (phanabel123-rgb) abschließen. Sobald er meine Branches freigegeben hat, werde ich die Pull Requests in der empfohlenen Reihenfolge (zuerst `MiniJavaTokens`) in den Master-Branch mergen.
+- Abschließend werde ich dieses Post Mortem zusammen mit dem Repository-Link im ILIAS hochladen, um die Abgabe für Blatt 04 final einzureichen.
