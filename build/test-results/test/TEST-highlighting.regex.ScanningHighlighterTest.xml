@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="highlighting.regex.ScanningHighlighterTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-05-25T13:13:56.585Z" hostname="Mac" time="0.022">
+  <properties/>
+  <testcase name="noMatchText()" classname="highlighting.regex.ScanningHighlighterTest" time="0.005"/>
+  <testcase name="combinationMatchAndNonMatch()" classname="highlighting.regex.ScanningHighlighterTest" time="0.0"/>
+  <testcase name="fullCodeSnippet()" classname="highlighting.regex.ScanningHighlighterTest" time="0.002"/>
+  <testcase name="keywordInsideLineComment_notHighlightedSeparately()" classname="highlighting.regex.ScanningHighlighterTest" time="0.001"/>
+  <testcase name="emptyText()" classname="highlighting.regex.ScanningHighlighterTest" time="0.001"/>
+  <testcase name="skipsNonMatchingChars()" classname="highlighting.regex.ScanningHighlighterTest" time="0.001"/>
+  <testcase name="keywordInsideString_notHighlighted()" classname="highlighting.regex.ScanningHighlighterTest" time="0.001"/>
+  <testcase name="resultIsNonOverlapping()" classname="highlighting.regex.ScanningHighlighterTest" time="0.003"/>
+  <testcase name="multipleKeywordsWithGaps()" classname="highlighting.regex.ScanningHighlighterTest" time="0.0"/>
+  <testcase name="keywordInsideBlockComment_notHighlighted()" classname="highlighting.regex.ScanningHighlighterTest" time="0.0"/>
+  <testcase name="longestMatchWins_javadocVsBlock()" classname="highlighting.regex.ScanningHighlighterTest" time="0.0"/>
+  <testcase name="longestMatchWins_keywordVsIdentifier()" classname="highlighting.regex.ScanningHighlighterTest" time="0.001"/>
+  <testcase name="singleKeyword()" classname="highlighting.regex.ScanningHighlighterTest" time="0.0"/>
+  <testcase name="resultIsSorted()" classname="highlighting.regex.ScanningHighlighterTest" time="0.0"/>
+  <testcase name="tieBreaking_javadocBeforeBlockComment()" classname="highlighting.regex.ScanningHighlighterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
