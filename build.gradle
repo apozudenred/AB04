@@ -27,6 +27,6 @@ test {
 
 spotless {
     java {
-        googleJavaFormat()
+        eclipse()
     }
 }
