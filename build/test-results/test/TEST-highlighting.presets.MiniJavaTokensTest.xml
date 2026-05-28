@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="highlighting.presets.MiniJavaTokensTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2026-05-28T09:11:18.634Z" hostname="Mac" time="0.029">
+  <properties/>
+  <testcase name="stringNoMatch()" classname="highlighting.presets.MiniJavaTokensTest" time="0.008"/>
+  <testcase name="stringInMiddle()" classname="highlighting.presets.MiniJavaTokensTest" time="0.0"/>
+  <testcase name="annotationAtLineStart()" classname="highlighting.presets.MiniJavaTokensTest" time="0.0"/>
+  <testcase name="javadocNoMatch()" classname="highlighting.presets.MiniJavaTokensTest" time="0.001"/>
+  <testcase name="blockCommentNoMatch()" classname="highlighting.presets.MiniJavaTokensTest" time="0.0"/>
+  <testcase name="javadocInMiddle()" classname="highlighting.presets.MiniJavaTokensTest" time="0.001"/>
+  <testcase name="javadocAtStart()" classname="highlighting.presets.MiniJavaTokensTest" time="0.0"/>
+  <testcase name="lineCommentAtStart()" classname="highlighting.presets.MiniJavaTokensTest" time="0.001"/>
+  <testcase name="stringsSimple()" classname="highlighting.presets.MiniJavaTokensTest" time="0.0"/>
+  <testcase name="annotationWithSpaceBefore()" classname="highlighting.presets.MiniJavaTokensTest" time="0.001"/>
+  <testcase name="multipleStrings()" classname="highlighting.presets.MiniJavaTokensTest" time="0.0"/>
+  <testcase name="lineCommentDoesNotSpanNewline()" classname="highlighting.presets.MiniJavaTokensTest" time="0.0"/>
+  <testcase name="blockCommentMultiline()" classname="highlighting.presets.MiniJavaTokensTest" time="0.001"/>
+  <testcase name="annotationOverride()" classname="highlighting.presets.MiniJavaTokensTest" time="0.0"/>
+  <testcase name="blockCommentSimple()" classname="highlighting.presets.MiniJavaTokensTest" time="0.001"/>
+  <testcase name="charInCode()" classname="highlighting.presets.MiniJavaTokensTest" time="0.001"/>
+  <testcase name="charSimple()" classname="highlighting.presets.MiniJavaTokensTest" time="0.0"/>
+  <testcase name="stringWithSlashSlashInside()" classname="highlighting.presets.MiniJavaTokensTest" time="0.0"/>
+  <testcase name="keywordInsideComment()" classname="highlighting.presets.MiniJavaTokensTest" time="0.001"/>
+  <testcase name="keywordNotPartOfIdentifier()" classname="highlighting.presets.MiniJavaTokensTest" time="0.001"/>
+  <testcase name="lineCommentAtEnd()" classname="highlighting.presets.MiniJavaTokensTest" time="0.001"/>
+  <testcase name="keywordPublic()" classname="highlighting.presets.MiniJavaTokensTest" time="0.001"/>
+  <testcase name="keywordReturn()" classname="highlighting.presets.MiniJavaTokensTest" time="0.0"/>
+  <testcase name="annotationNoMatch()" classname="highlighting.presets.MiniJavaTokensTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
